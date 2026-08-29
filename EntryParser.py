@@ -1,6 +1,8 @@
 import re
 from typing import Optional, Tuple, Dict, List
 
+# This module is responsible for parsing a single line of input into a structured record.
+
 def _is_pure_digits(s: str) -> bool:
     return s.isdigit()
 

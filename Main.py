@@ -1,7 +1,9 @@
 import json
 import sys
 
-from parser import process_lines
+from EntryParser import process_lines
+
+# Main entry point for the program. Reads input from a file, processes it, and writes output to a JSON file.
 
 
 def main() -> None:
